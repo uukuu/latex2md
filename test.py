@@ -72,3 +72,6 @@ s ='''	\\item[乘法:] 模长相乘, 辐角相加.
 
 s = re.sub(r'(\s*)\\item(\s*)\[(.*?)\]',lambda x: f'{x.group(3)}',s)
 print(s)
+
+s = r'\\'+'a'
+print(s)
